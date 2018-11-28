@@ -1,0 +1,28 @@
+{
+  "development": {
+    "username": "root",
+    "password": "root",
+    "database": "NodeTestDB",
+    "host": "localhost",
+    "dialect": "mysql",
+    "dialectOptions": {
+      "socketPath": "/Applications/MAMP/tmp/mysql/mysql.sock",
+      "supportBigNumbers": true,
+      "bigNumberStrings": true
+    }
+  },
+  "test": {
+    "username": "root",
+    "password": "root",
+    "database": "NodeTestDB",
+    "host": "localhost",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": "root",
+    "database": "NodeTestDB",
+    "host": "localhost",
+    "dialect": "mysql"
+  }
+}
